@@ -163,6 +163,10 @@ y_n
 
 ![ConsoleOutput](Pictures/ConsoleOutput.png)
 
+## Контакты
 
+Вы можете найти меня здесь:
+* [Telegram](https://t.me/VladikNT)
+* [VK](https://vk.com/vladikvasilyev)
 
-
+Также можете ознакомиться с моим [резюме](https://spb.hh.ru/resume/99523b52ff0b01b5930039ed1f61316f397567).
