@@ -1,7 +1,7 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
-from src import data_gen
+import data_gen
+
 
 n = 20
 poly = 2
@@ -39,6 +39,8 @@ def gradient(x, y, params):
 
 
 def main():
+    import matplotlib.pyplot as plt
+
     a = 1 / (np.random.random(poly + 1) + 0.2 * (np.arange(poly + 1) + 1))
     a = a / (np.arange(poly + 1) + 1)
     a = a.reshape(-1, 1)

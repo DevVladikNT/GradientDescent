@@ -1,8 +1,7 @@
 import unittest
-
 import numpy as np
 
-from src.polynomial_model import loss, gradient
+from polynomial_model import loss, gradient
 
 
 class TestModel(unittest.TestCase):
@@ -35,3 +34,7 @@ class TestModel(unittest.TestCase):
         y = np.array([2, 3]).reshape(-1, 1)
         # when loss=0, gradient is [[0], [0]]
         self.assertEqual(np.sum(gradient(x, y, params=a), axis=0), 0)
+
+
+if __name__ == "__main__":
+    unittest.main()

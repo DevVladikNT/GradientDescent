@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 import loss_surface
 
+
 k = 0.01
 steps = 400
 
