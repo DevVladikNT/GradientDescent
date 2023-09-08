@@ -31,6 +31,6 @@ jobs:
       - name: Test with unittest
         run: |
           cd test
-          python TestModel.py
+          python src/TestModel.py
       
            
