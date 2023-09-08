@@ -26,7 +26,8 @@ def plot_grad_desc(a_array):
     for row in a_array:
         a0_gd.append(row[0])
         a1_gd.append(row[1])
-        z_gd.append((-8 * row[1] + 1 * row[0] - 6) ** 2 + (2 * row[1] + 1 * row[0] - 11) ** 2)
+        z_gd.append((-8 * row[1] + 1 * row[0] - 6) ** 2 +
+                    (2 * row[1] + 1 * row[0] - 11) ** 2)
 
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')

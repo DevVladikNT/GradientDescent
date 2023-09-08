@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-import data_gen
 import loss_surface
 
 k = 0.01
